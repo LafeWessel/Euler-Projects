@@ -19,7 +19,7 @@ class EvenFibonacci(EulerProblem):
         max_num = 4000000
         latest_num = 1
 
-        # 
+        #
         while latest_num < max_num:
             nums.append(self.next_fibonacci(nums[-2], nums[-1]))
             latest_num = nums[-1]

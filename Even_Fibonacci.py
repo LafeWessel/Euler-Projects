@@ -14,7 +14,6 @@ class EvenFibonacci(EulerProblem):
     # end def
 
     def run(self):
-        print("Running", self.name)
         nums = [0, 1]
         max_num = 4000000
         latest_num = 1
@@ -27,7 +26,7 @@ class EvenFibonacci(EulerProblem):
 
         nums = [t for t in nums if t % 2 == 0]
         self.result = sum(nums)
-        return self.result
+        return
     # end def
 
     # calculate fibonacci number

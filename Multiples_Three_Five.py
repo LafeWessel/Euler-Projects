@@ -14,7 +14,6 @@ class MultiplesThreeFive(EulerProblem):
     # end def
 
     def run(self):
-        print("Running", self.name)
         # calculate factors
         f_three = self.find_factors(factor = 3, max_bound = 1000)
         f_five = self.find_factors(factor = 5, max_bound = 1000)
@@ -25,7 +24,7 @@ class MultiplesThreeFive(EulerProblem):
 
         # sum factors
         self.result = sum(factors)
-        return self.result
+        return
     # end def
 
     # find factors of factor between min and max

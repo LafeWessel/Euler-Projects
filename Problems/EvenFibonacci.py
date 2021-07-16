@@ -6,7 +6,7 @@
 
 from EulerProblem import EulerProblem
 
-class EvenFibonacci(EulerProblem):
+class Even_Fibonacci(EulerProblem):
 
     def __init__(self):
         self.name = "Even Fibonacci"

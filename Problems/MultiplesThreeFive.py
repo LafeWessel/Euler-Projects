@@ -6,7 +6,7 @@
 from EulerProblem import EulerProblem
 
 
-class MultiplesThreeFive(EulerProblem):
+class Multiples_Three_Five(EulerProblem):
 
     def __init__(self):
         self.name = "Multiples of 3 and 5"

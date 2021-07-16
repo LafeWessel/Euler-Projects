@@ -1,17 +1,15 @@
 # Euler class contains a class that has references to each of the problems and
 
-from EulerProblem import EulerProblem
-import Multiples_Three_Five
-import Even_Fibonacci
-import LargestPrimeFactor
-import LargestPalindromeProduct
+from Problems import LargestPrimeFactor, EvenFibonacci, LargestPalindromeProduct, MultiplesThreeFive
+
+# TODO: create way to save results to file then only perform the tests that have no correct answer
 
 class EulerProject:
 
     def __init__(self):
         self.problem_list = [
-            Multiples_Three_Five.MultiplesThreeFive(),
-            Even_Fibonacci.EvenFibonacci(),
+            MultiplesThreeFive.Multiples_Three_Five(),
+            EvenFibonacci.Even_Fibonacci(),
             LargestPrimeFactor.Largest_Prime_Factor(),
             LargestPalindromeProduct.Largest_Palindrome_Product()
         ]
